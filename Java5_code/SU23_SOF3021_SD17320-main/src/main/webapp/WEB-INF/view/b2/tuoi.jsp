@@ -1,0 +1,1 @@
+<h1>Tuoi cua ban: ${tuoi}</h1>

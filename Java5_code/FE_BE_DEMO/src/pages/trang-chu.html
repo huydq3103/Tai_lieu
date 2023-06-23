@@ -1,0 +1,44 @@
+Trang chu
+
+<table>
+  <thead>
+    <tr>
+     
+      <th>ID</th>
+      <th>Ten</th>
+      <th>Gia</th>
+      <th>URL</th>
+      <th>Function</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="sp in listSP">
+      <td>{{sp.id}}</td>
+      <td>{{sp.productName}}</td>
+      <td>{{sp.price}}</td>
+       <td>{{sp.url}}</td>
+      <td>
+        <a
+          href="#"
+          ng-click="deleteThucVat($event,$index)"
+          >Delete</a>
+      </td>
+      <td>
+        <a
+          href="#"
+          ng-click="details($event,$index)"
+          >edit</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<form>
+  <p>ten : <input type="text" ng-model="form_tv.productName"></p>
+  <p>gia : <input type="text" ng-model="form_tv.price"></p>
+  <p>url : <input type="text" ng-model="form_tv.url"></p>
+  <button ng-click="add($event)">ADD</button>
+<button ng-click="update($event)">update</button>
+</form>
+

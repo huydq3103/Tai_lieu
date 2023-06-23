@@ -1,0 +1,6 @@
+Lợi nhuận = Doanh Thu - Chi Phí
+Giảm thuế = tăng chi phí 
+
+Khuyến mại : dành cho ngươi mua
+
+Khuyến mãi : dành cho người bán
